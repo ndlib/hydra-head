@@ -32,7 +32,7 @@ class HeadGenerator < Rails::Generators::Base
     )
 
     gem_group :development, :test do
-      gem "rspec-rails"
+      gem "rspec-rails", '~> 3.0.2'
       gem 'jettywrapper'
     end
 
